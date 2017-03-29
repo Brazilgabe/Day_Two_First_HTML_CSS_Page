@@ -1,0 +1,104 @@
+nav a p {
+  font-family: sans-serif;
+  display: inline;
+}
+
+#title {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+
+}
+
+.Antonio_section {
+  background-color: #4e5f6b;
+  float:left;
+  width: 48%;
+  height:675px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  border:5px double beige;
+  padding-bottom:25px;
+}
+
+.Gabe_section {
+  background-color: #4e5f6b;
+  float:right;
+  width: 48%;
+  height:675px;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+  border:5px double beige;
+  padding-bottom:25px;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-align:center;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+.picture {
+  margin-left: 350px;
+  position:relative;
+  border: 2px solid black;
+  background-color: beige;
+}
+
+a:hover {
+  color:white;
+  font-size:100%;
+}
+
+/*a:visited {
+  color:black;
+  font-size:70%;
+}*/
+
+section p::first-letter{
+  color:purple;
+  font-size:150%;
+  font-family:fantasy;
+}
+
+section p {
+  text-align: center;
+}
+
+table {
+  background-color: #68909F;
+  clear:both;
+  width: 100%;
+  text-align: left;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table p {
+  text-align:center;
+}
+
+.interests {
+  width:50px;
+  text-align:center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+ul {
+  font-weight: 500;
+}
